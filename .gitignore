@@ -4,6 +4,8 @@ Fake.csv.zip
 True.csv
 True.csv.zip
 /downloads/*
+/preprocessed_data/*
+/original_data/*
 /preprocessed_embeddings/*
 
 MANIFEST
