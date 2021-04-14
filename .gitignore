@@ -3,6 +3,8 @@ Fake.csv
 Fake.csv.zip
 True.csv
 True.csv.zip
+/downloads/*
+/preprocessed_embeddings/*
 
 MANIFEST
 build
