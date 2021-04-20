@@ -58,3 +58,5 @@ geckodriver.log
 *.code-workspace
 .history
 .vscode
+
+embeddings/glove.840B.300d.txt
