@@ -1,8 +1,5 @@
 .vscode
-Fake.csv
-Fake.csv.zip
-True.csv
-True.csv.zip
+/others
 /downloads/*
 /preprocessed_data/*
 /original_data/*
