@@ -19,7 +19,7 @@ chrome.storage.local.get('key', function(result) {
       var pred;
       if (obj.prediction == 1){
         pred = 'REAL'
-        $('.detected').css({'display': 'block'});
+        $('.detected').css({'display': 'none'});
       }
       else {
           pred = 'FAKE';
