@@ -10,7 +10,7 @@ In this section we implemented different embeddings for the pre-processed datase
 All the code is inside the `embeddings/BoW_embedding.ipynb` notebook. This jupyter-notebook should be executed completely to create and save the embeddings that will later be used.
 ### GloVe
 The GloVe pretrained embeddings are available [here](http://nlp.stanford.edu/data/glove.840B.300d.zip):  
-Unzip the archive and move the `glove.840B.300d.txt` to the embeddings folder.
+Unzip the archive and move the `glove.840B.300d.txt` file to the embeddings folder.
 ### Word2Vec (Skipgram)
 ### ELMo
 All the code is inside the `embeddings/ELMo_embedding.ipynb` notebook. The first section `Load ELMo` will download the weights of the pre-trained ELMo model created by AllenNLP and save them into `downloads` folder.
