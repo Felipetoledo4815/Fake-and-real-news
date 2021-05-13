@@ -27,7 +27,7 @@ The extension should be available in Chrome.
 
 ### GloVe
 
-The GloVe pretrained embeddings are available [here]](http://nlp.stanford.edu/data/glove.840B.300d.zip):  
+The GloVe pretrained embeddings are available [here](http://nlp.stanford.edu/data/glove.840B.300d.zip):  
 Unzip the archive and move the `glove.840B.300d.txt` to the embeddings folder.
 
 
