@@ -16,7 +16,7 @@ We perform text-classification on [a dataset of fake\real news](https://www.kagg
 
 Chrome Extension is available in the CX directory. Steps to use the chrome extension are listed below:
 * Launch the Flask Server with the classifier in the cx directory using `python server.py`
-* In your Chrome Browser navigate to **[chrome://extensions](chrome://extensions/)**
+* In your Chrome Browser navigate to **[chrome://extensions](https://chrome://extensions/)**
 * Select **Load Unpacked**
 * Select the extension subdirectory in cx 
 
