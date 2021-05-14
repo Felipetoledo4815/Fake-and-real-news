@@ -24,7 +24,7 @@ All the code is inside the `models/linear_classifier.ipynb` notebook. Here we lo
 ### CNN
 All the code is inside the `models/CNN.ipynb` notebook. Here we implemented a very simple CNN and trained it using the ELMo embeddings for the titles. We computed training, validation and test accuract, as well as precision, recall and F-1 score.
 ### RNN
-
+The code for the RNN can be found in the `models/RNN.ipynb` notebook. We used the pretrained ELMo embeddings for the embedding layer, LSTM units, and a single hidden layer with dimension 128. We trained the model for 5 epochs and reported both train and validation accuracies. 
 ### BERT
 For the comparison of BERT classification accuracy we use the Huggingface [BERTForSequenceClassification](https://huggingface.co/transformers/model_doc/bert.html#bertforsequenceclassification). 
 
