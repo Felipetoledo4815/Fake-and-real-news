@@ -23,7 +23,14 @@ All the code is inside the `models/linear_classifier.ipynb` notebook. Here we lo
 ### CNN
 All the code is inside the `models/CNN.ipynb` notebook. Here we implemented a very simple CNN and trained it using the ELMo embeddings for the titles. We computed training, validation and test accuract, as well as precision, recall and F-1 score.
 ### RNN
+
 ### BERT
+For the comparison of BERT using BERT pretrained embeddings, we used the pretrained [BERTForSequenceClassification](https://huggingface.co/transformers/model_doc/bert.html#bertforsequenceclassification). 
+
+In the case where we use the default BERT embeddings, we use the smaller [BERT-base-uncased](https://huggingface.co/bert-base-uncased) model.  
+
+To use the BERT model with ELMo embeddings we use the [BERT-large-uncased](https://huggingface.co/bert-large-uncased) model.
+
 
 ## App - Chrome Extension
 The Chrome Extension is available in the `cx` directory. This directory contains a jupyter-notebook called `classifier.ipynb`, which create, train and save a pipeline that includes CountVectorizer function first, and then a logistic regression model. Then the `server.py` has the code for running the Flask server, which host the saved pipeline and expose an endpoint to return the predictions.
