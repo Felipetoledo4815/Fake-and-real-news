@@ -26,10 +26,13 @@ All the code is inside the `models/CNN.ipynb` notebook. Here we implemented a ve
 ### BERT
 
 ## App - Chrome Extension
-Chrome Extension is available in the CX directory. Steps to use the chrome extension are listed below:
-* Launch the Flask Server with the classifier in the cx directory using `python server.py`
-* In your Chrome Browser navigate to **chrome://extensions**
-* Select **Load Unpacked**
-* Select the extension subdirectory in cx 
+The Chrome Extension is available in the `cx` directory. This directory contains a jupyter-notebook called `classifier.ipynb`, which create, train and save a pipeline that includes CountVectorizer function first, and then a logistic regression model. Then the `server.py` has the code for running the Flask server, which host the saved pipeline and expose an endpoint to return the predictions.
 
-The extension should be available in Chrome.
+The steps to use the chrome extension are listed below:
+
+1. Launch the Flask Server with the classifier in the cx directory using `python server.py`
+2. In your Chrome Browser navigate to **chrome://extensions**
+3. Select **Load Unpacked**
+4. Select the extension subdirectory in cx 
+
+The extension should be available in Chrome. To use it, simply open a news and click the extension if you have doubts wheter it is real or fake. If the extension does not show anything, then it means that the news is real, otherwise it will show a warning sign.
