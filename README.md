@@ -9,8 +9,7 @@ In this section we implemented different embeddings for the pre-processed datase
 ### BoW
 All the code is inside the `embeddings/BoW_embedding.ipynb` notebook. This jupyter-notebook should be executed completely to create and save the embeddings that will later be used.
 ### GloVe
-The GloVe pretrained embeddings are available 
-In order to generate the GloVe Embeddings, sumply run the Glove_embedding notebook in the embedding directory. The notebook contains cells to download the embeddings from [here](http://nlp.stanford.edu/data/glove.840B.300d.zip) and will then create the embeddings for the sentences and dump them in the preprocessed_embeddings directory
+In order to generate the GloVe Embeddings, simply run the `GloVe_embedding.ipynb` notebook inside the `embeddings` directory. The notebook contains cells to download the embeddings from [here](http://nlp.stanford.edu/data/glove.840B.300d.zip) and will then create the embeddings for the sentences and dump them in the `preprocessed_embeddings` directory.
 
 ### Word2Vec (Skipgram)
 All the code is inside the `embeddings/skipgram_embedding.ipynb` notebook. All the cells should be executed from top to bottom to get the skipgram embeddings inside the `preprocessed_embeddings` folder.
