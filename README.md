@@ -27,7 +27,7 @@ All the code is inside the `models/CNN.ipynb` notebook. Here we implemented a ve
 ### RNN
 
 ### BERT
-For the comparison of BERT classification accuracy we use the Hugginface [BERTForSequenceClassification](https://huggingface.co/transformers/model_doc/bert.html#bertforsequenceclassification). 
+For the comparison of BERT classification accuracy we use the Huggingface [BERTForSequenceClassification](https://huggingface.co/transformers/model_doc/bert.html#bertforsequenceclassification). 
 
 In the case where we use the default BERT embeddings and text from the dataset as input, we use the smaller [BERT-base-uncased](https://huggingface.co/bert-base-uncased) model.  
 
