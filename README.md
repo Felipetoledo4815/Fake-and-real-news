@@ -12,6 +12,7 @@ All the code is inside the `embeddings/BoW_embedding.ipynb` notebook. This jupyt
 The GloVe pretrained embeddings are available [here](http://nlp.stanford.edu/data/glove.840B.300d.zip):  
 Unzip the archive and move the `glove.840B.300d.txt` file to the embeddings folder.
 ### Word2Vec (Skipgram)
+All the code is inside the `embeddings/skipgram_embedding.ipynb` notebook. All the cells should be executed from top to bottom to get the skipgram embeddings inside the `preprocessed_embeddings` folder.
 ### ELMo
 All the code is inside the `embeddings/ELMo_embedding.ipynb` notebook. The first section `Load ELMo` will download the weights of the pre-trained ELMo model created by AllenNLP and save them into `downloads` folder.
 
